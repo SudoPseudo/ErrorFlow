@@ -1,4 +1,4 @@
-This program emulates the functionality of TensorFlow:
+This program is a lightweight version TensorFlow, with the same functionality:
 It never works, and instead outputs a random error.
 
 To run:
