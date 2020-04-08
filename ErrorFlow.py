@@ -86,6 +86,16 @@ return _load(spec)
 Error: No Module Found: Tensorflow.Usability
 """ + '\x1b[1;31;40m' + 'Tensorflow is incompatible with this computer.  Please purchase a newer, better computer.  If this computer is already top of the line, please purchase an older computer because Tensorflow has not caught up with this technology yet.' + '\x1b[0m',
 
+  
+r"""Traceback (most recent call last):
+  File "train_wavegan.py", line 654, in <module>
+    train(fps, args)
+  File "train_wavegan.py", line 40, in train
+    prefetch_gpu_num=args.data_prefetch_gpu_num)[:, :, 0]
+  File "/content/wavegan/loader.py", line 185, in decode_extract_and_batch
+    dataset = dataset.batch(batch_size, drop_remainder=True)
+TypeError: batch() got an unexpected keyword argument 'drop_remainder'
+""" + '\x1b[1;31;40m' + 'Incorrect version of Tensorflow.  Please Please install different versions at random until one works.' + '\x1b[0m',
 ]
 
 
