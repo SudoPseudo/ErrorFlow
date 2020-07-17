@@ -12,6 +12,16 @@ Err = [
 r"""Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ModuleNotFoundError: No module named 'tensorflow'""",
+  
+
+r"""Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'ErrorFlow'""",
+  
+
+r"""Traceback (most recent call last):
+  File "<stdin>", line 23, in <module>
+Tensorflow updated to the newest version last night.  As a result, your code no longer works.  Please change all commands to the newest Tensorflow command structure, before we update to a new version tonight, and your code once again becomes invalidated.""",
 
 r"""Traceback (most recent call last):
 File "C:\Users\User\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\pywrap_tensorflow.py", line 74, in
@@ -55,6 +65,63 @@ ImportError: DLL load failed: The specified module could not be found.
 """ + '\x1b[1;31;40m' + 'Tensorflow2 is incompatible with this version of Python, please upgrade to the latest version.  If you are currently using the latest version of Python, please downgrade to an earlier version.' + '\x1b[0m',
 
 r"""Traceback (most recent call last):
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow.py", line 58, in
+from tensorflow.python.pywrap_tensorflow_internal import *
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 28, in
+_pywrap_tensorflow_internal = swig_import_helper()
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+_mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 242, in load_module
+return load_dynamic(name, filename, file)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 342, in load_dynamic
+return _load(spec)
+ImportError: DLL load failed: The specified module could not be found.
+""" + '\x1b[1;31;40m' + 'This version of Tensorflow is so new that none of its dependencies have caught up.  Dont ask how we made this version without any of its dependencies.  Please wait a few months until the dependencies catch up with our Tensorflow\'s fast progress.' + '\x1b[0m',
+
+r"""Traceback (most recent call last):
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow.py", line 58, in
+from tensorflow.python.pywrap_tensorflow_internal import *
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 28, in
+_pywrap_tensorflow_internal = swig_import_helper()
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+_mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 242, in load_module
+return load_dynamic(name, filename, file)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 342, in load_dynamic
+return _load(spec)
+ImportError: DLL load failed: The specified module could not be found.
+""" + '\x1b[1;31;40m' + 'Do you ever feel sad or alone?  Call Ginger at 555-432-1779' + '\x1b[0m',
+
+r"""Traceback (most recent call last):
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow.py", line 58, in
+from tensorflow.python.pywrap_tensorflow_internal import *
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 28, in
+_pywrap_tensorflow_internal = swig_import_helper()
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+_mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 242, in load_module
+return load_dynamic(name, filename, file)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 342, in load_dynamic
+return _load(spec)
+ImportError: DLL load failed: The specified module could not be found.
+""" + '\x1b[1;31;40m' + 'This version of Tensorflow is not compatible with anything.  Suggest you fix this issue, and all other issues, by switching to PyTorch:  www.PyTorch.org' + '\x1b[0m',
+
+r"""Traceback (most recent call last):
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow.py", line 58, in
+from tensorflow.python.pywrap_tensorflow_internal import *
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 28, in
+_pywrap_tensorflow_internal = swig_import_helper()
+File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+_mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 242, in load_module
+return load_dynamic(name, filename, file)
+File "C:\Users\USER\Anaconda3\lib\imp.py", line 342, in load_dynamic
+return _load(spec)
+ImportError: DLL load failed: The specified module could not be found.
+""" + '\x1b[1;31;40m' + 'This particular error is very difficult to solve.  We suggest you roll up into a ball and cry.' + '\x1b[0m',
+
+  
+  r"""Traceback (most recent call last):
 File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow.py", line 58, in
 from tensorflow.python.pywrap_tensorflow_internal import *
 File "C:\Users\USER\Anaconda3\lib\site-packages\tensorflow_core\python\pywrap_tensorflow_internal.py", line 28, in
