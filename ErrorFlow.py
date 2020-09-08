@@ -163,6 +163,13 @@ r"""Traceback (most recent call last):
     dataset = dataset.batch(batch_size, drop_remainder=True)
 TypeError: batch() got an unexpected keyword argument 'drop_remainder'
 """ + '\x1b[1;31;40m' + 'Incorrect version of Tensorflow.  Please Please install different versions at random until one works.' + '\x1b[0m',
+  
+  
+r"""WARNING:tensorflow:From <ipython-input-16-ace4c3bc2b19>:17: tensorflow.Deep_Learning is deprecated and will be removed in a future version.
+WARNING:tensorflow:From <ipython-input-16-ace4c3bc2b19>:18: tensorflow.Machine_Learning is deprecated and will be removed in a future version.
+WARNING:tensorflow:From <ipython-input-16-ace4c3b19>:42: tensorflow is deprecated and will be removed in a future version.
+WARNING:tensorflow:From <ipython-input-16-ace4c3b19>:18: USE AT YOUR OWN RISK.  May be a choking or safety hazard.  Keep away from small children and cats.
+Instructions for updating: switch to another program.
 ]
 
 
