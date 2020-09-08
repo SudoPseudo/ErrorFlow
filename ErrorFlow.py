@@ -169,7 +169,7 @@ r"""WARNING:tensorflow:From <ipython-input-16-ace4c3bc2b19>:17: tensorflow.Deep_
 WARNING:tensorflow:From <ipython-input-16-ace4c3bc2b19>:18: tensorflow.Machine_Learning is deprecated and will be removed in a future version.
 WARNING:tensorflow:From <ipython-input-16-ace4c3b19>:42: tensorflow is deprecated and will be removed in a future version.
 WARNING:tensorflow:From <ipython-input-16-ace4c3b19>:18: USE AT YOUR OWN RISK.  May be a choking or safety hazard.  Keep away from small children and cats.
-Instructions for updating: switch to another program.
+Instructions for updating: switch to another program."""
 ]
 
 
